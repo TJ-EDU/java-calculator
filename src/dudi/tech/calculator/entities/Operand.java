@@ -1,11 +1,11 @@
 package dudi.tech.calculator.entities;
 
-public abstract class Dato {
+public abstract class Operand {
 
     private Double firstNumber;
     private Double secondNumber;
 
-    public Dato(Double firstNumber, Double secondNumber) {
+    public Operand(Double firstNumber, Double secondNumber) {
         this.firstNumber = firstNumber;
         this.secondNumber = secondNumber;
     }
