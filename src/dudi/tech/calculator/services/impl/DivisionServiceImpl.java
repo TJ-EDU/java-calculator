@@ -1,8 +1,8 @@
 package dudi.tech.calculator.services.impl;
 
-import dudi.tech.calculator.services.OperationService;
+import dudi.tech.calculator.services.IOperationService;
 
-public class DivisionServiceImpl implements OperationService {
+public class DivisionServiceImpl implements IOperationService {
 
     @Override
     public Double calculate(Double firstValue, Double secondValue) {

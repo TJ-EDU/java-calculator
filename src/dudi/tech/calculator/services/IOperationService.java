@@ -1,5 +1,5 @@
 package dudi.tech.calculator.services;
 
-public interface OperationService {
+public interface IOperationService {
     public Double calculate(Double firstValue, Double secondValue);
 }
